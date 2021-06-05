@@ -1,0 +1,96 @@
+body {
+  font-family: "Roboto", sans-serif; }
+
+header .carousel-item {
+  position: relative; }
+  header .carousel-item img {
+    height: 815px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+header .carousel-control-prev-icon, header .carousel-control-next-icon {
+  display: none; }
+header .titleTex {
+  position: absolute;
+  bottom: 50px;
+  right: 300px; }
+  header .titleTex h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 72px;
+    line-height: 84px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); }
+  header .titleTex h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin-top: -50px; }
+
+body .description {
+  margin-top: 150px; }
+  body .description h4 {
+    text-align: right; }
+  body .description .blueTitle {
+    color: #268DCF; }
+  body .description .titleText {
+    font-family: Roboto;
+    font-size: 48px;
+    line-height: 56px; }
+  body .description .descriptionText {
+    font-size: 24px;
+    line-height: 28px;
+    color: #2C1A12; }
+
+@media (max-width: 1400px) {
+  header .titleTex {
+    right: 154px;
+    text-align: right; } }
+@media (max-width: 1200px) {
+  header .titleTex {
+    right: 100px; } }
+@media (max-width: 850px) {
+  header .titleTex {
+    right: 60px; } }
+@media (max-width: 768px) {
+  .bodyTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 40px; }
+    .bodyTitle h4:last-child {
+      text-align: center;
+      margin-left: 10px; } }
+@media (max-width: 650px) {
+  .carousel-item {
+    position: relative; }
+    .carousel-item img {
+      height: 615px !important;
+      -o-object-fit: contain;
+         object-fit: contain; }
+
+  header .titleTex {
+    right: 40px; } }
+@media (max-width: 450px) {
+  header .titleTex {
+    right: 10px; }
+    header .titleTex h1 {
+      font-size: 52px; }
+    header .titleTex h4 {
+      font-size: 28px; }
+
+  body .description {
+    margin-top: 100px; }
+    body .description .titleText {
+      font-size: 40px; } }
+@media (max-width: 360px) {
+  body .description {
+    margin-top: 60px;
+    margin-bottom: 20px; }
+    body .description .bodyTitle {
+      margin-bottom: 10px; }
+      body .description .bodyTitle .titleText {
+        font-size: 35px; } }
+
+/*# sourceMappingURL=style.css.map */
