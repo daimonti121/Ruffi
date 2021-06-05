@@ -65,7 +65,7 @@ body .training {
     margin: 5px 0px 7px; }
   body .training .training__button {
     text-align: center; }
-    body .training .training__button button {
+    body .training .training__button .buttonColor {
       margin-top: 44px;
       background: #268DCF;
       width: 237px;
@@ -73,6 +73,9 @@ body .training {
       font-size: 30px;
       line-height: 35px;
       color: #FFFFFF; }
+body .image-block-two img {
+  width: 100%;
+  margin-top: 65px; }
 
 @media (max-width: 1400px) {
   header .titleTex {
@@ -83,7 +86,10 @@ body .training {
     right: 100px; } }
 @media (max-width: 850px) {
   header .titleTex {
-    right: 60px; } }
+    right: 60px; }
+
+  body .title-two {
+    font-size: 54px; } }
 @media (max-width: 768px) {
   .bodyTitle {
     display: -webkit-box;
@@ -108,7 +114,16 @@ body .training {
     height: 400px;
     -o-object-fit: cover;
        object-fit: cover;
-    margin-top: 70px; } }
+    margin-top: 70px; }
+  body .image-block-two img {
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-top: 70px; }
+  body .training .align h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    line-height: 54px; } }
 @media (max-width: 450px) {
   header .titleTex {
     right: 10px; }
@@ -121,10 +136,10 @@ body .training {
     margin-top: 100px; }
     body .description .titleText {
       font-size: 40px; }
-  body .image-block img {
+  body .image-block img, body .image-bloc-two img {
     margin-top: 50px; }
   body .training .align h2 {
-    font-size: 42px;
+    font-size: 40px;
     margin-bottom: 10px; }
   body .training .align p {
     font-size: 18px; }
@@ -138,11 +153,8 @@ body .training {
       margin-bottom: 10px; }
       body .description .bodyTitle .titleText {
         font-size: 35px; }
-  body .training .training__button button {
-    margin-top: 34px;
-    width: 200px;
-    height: 40px;
-    font-size: 26px;
-    line-height: 35px; } }
+  body .training .align h2 {
+    font-size: 34px;
+    margin-bottom: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
