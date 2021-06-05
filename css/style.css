@@ -76,6 +76,21 @@ body .training {
 body .image-block-two img {
   width: 100%;
   margin-top: 65px; }
+body .service__title {
+  margin-top: 60px;
+  font-size: 64px;
+  line-height: 75px;
+  color: #268DCF;
+  text-align: center; }
+body .service__text {
+  margin-top: 40px;
+  text-align: left;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2C1A12; }
+body .service__icon::before {
+  content: "";
+  display: block; }
 
 @media (max-width: 1400px) {
   header .titleTex {
@@ -84,6 +99,10 @@ body .image-block-two img {
 @media (max-width: 1200px) {
   header .titleTex {
     right: 100px; } }
+@media (max-width: 1000px) {
+  body .service__title {
+    font-size: 60px;
+    line-height: 72px; } }
 @media (max-width: 850px) {
   header .titleTex {
     right: 60px; }
@@ -98,7 +117,15 @@ body .image-block-two img {
     margin-bottom: 40px; }
     .bodyTitle h4:last-child {
       text-align: center;
-      margin-left: 10px; } }
+      margin-left: 10px; }
+
+  body .service__title {
+    font-size: 44px;
+    line-height: 50px; }
+  body .service__text {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 18px; } }
 @media (max-width: 650px) {
   .carousel-item {
     position: relative; }
@@ -123,7 +150,10 @@ body .image-block-two img {
   body .training .align h2 {
     font-size: 45px;
     margin-bottom: 10px;
-    line-height: 54px; } }
+    line-height: 54px; }
+  body .service__title {
+    font-size: 35px;
+    line-height: 50px; } }
 @media (max-width: 450px) {
   header .titleTex {
     right: 10px; }
@@ -144,7 +174,11 @@ body .image-block-two img {
   body .training .align p {
     font-size: 18px; }
   body .training .align h5 {
-    font-size: 26px; } }
+    font-size: 26px; }
+  body .service__title {
+    margin-top: 60px;
+    font-size: 28px;
+    line-height: 34px; } }
 @media (max-width: 360px) {
   body .description {
     margin-top: 60px;
@@ -155,6 +189,10 @@ body .image-block-two img {
         font-size: 35px; }
   body .training .align h2 {
     font-size: 34px;
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  body .service__title {
+    margin-top: 60px;
+    font-size: 26px;
+    line-height: 34px; } }
 
 /*# sourceMappingURL=style.css.map */
