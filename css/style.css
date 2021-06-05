@@ -42,6 +42,37 @@ body .description {
     font-size: 24px;
     line-height: 28px;
     color: #2C1A12; }
+body .image-block img {
+  width: 100%;
+  margin-top: 150px; }
+body .training {
+  margin-top: 50px; }
+  body .training .align h2, body .training .align p, body .training .align h5 {
+    text-align: center; }
+  body .training .align h2 {
+    font-size: 64px;
+    line-height: 75px;
+    color: #268DCF;
+    margin-bottom: 20px; }
+  body .training .align p {
+    font-size: 24px;
+    line-height: 28px;
+    color: #2C1A12; }
+  body .training .align h5 {
+    font-size: 30px;
+    line-height: 35px;
+    color: #268DCF;
+    margin: 5px 0px 7px; }
+  body .training .training__button {
+    text-align: center; }
+    body .training .training__button button {
+      margin-top: 44px;
+      background: #268DCF;
+      width: 237px;
+      height: 47px;
+      font-size: 30px;
+      line-height: 35px;
+      color: #FFFFFF; }
 
 @media (max-width: 1400px) {
   header .titleTex {
@@ -71,7 +102,13 @@ body .description {
          object-fit: contain; }
 
   header .titleTex {
-    right: 40px; } }
+    right: 40px; }
+
+  body .image-block img {
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-top: 70px; } }
 @media (max-width: 450px) {
   header .titleTex {
     right: 10px; }
@@ -83,7 +120,16 @@ body .description {
   body .description {
     margin-top: 100px; }
     body .description .titleText {
-      font-size: 40px; } }
+      font-size: 40px; }
+  body .image-block img {
+    margin-top: 50px; }
+  body .training .align h2 {
+    font-size: 42px;
+    margin-bottom: 10px; }
+  body .training .align p {
+    font-size: 18px; }
+  body .training .align h5 {
+    font-size: 26px; } }
 @media (max-width: 360px) {
   body .description {
     margin-top: 60px;
@@ -91,6 +137,12 @@ body .description {
     body .description .bodyTitle {
       margin-bottom: 10px; }
       body .description .bodyTitle .titleText {
-        font-size: 35px; } }
+        font-size: 35px; }
+  body .training .training__button button {
+    margin-top: 34px;
+    width: 200px;
+    height: 40px;
+    font-size: 26px;
+    line-height: 35px; } }
 
 /*# sourceMappingURL=style.css.map */
