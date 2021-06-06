@@ -90,6 +90,40 @@ body .service__text {
   font-size: 24px;
   line-height: 28px;
   color: #2C1A12; }
+body .service h5 {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #2C1A12;
+  margin-top: 30px; }
+body .service h6 {
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #268DCF;
+  margin-bottom: 30px; }
+body .service__align {
+  text-align: center;
+  margin-top: 0px; }
+body .service__button {
+  text-align: center; }
+  body .service__button .buttonColor {
+    margin-top: 44px;
+    background: #268DCF;
+    width: 237px;
+    height: 47px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-bottom: 44px; }
+body .service__title-size {
+  font-size: 36px;
+  text-align: center;
+  line-height: 42px;
+  color: #268DCF;
+  display: block; }
+  body .service__title-size__title-size:hover {
+    text-transform: underline; }
 
 @media (max-width: 1400px) {
   header .titleTex {
@@ -129,7 +163,13 @@ body .service__text {
   body .service__text {
     margin-top: 40px;
     text-align: left;
-    font-size: 18px; } }
+    font-size: 18px; }
+  body .service__align {
+    text-align: center;
+    margin-top: 0px; }
+  body .service__title-size {
+    font-size: 30px;
+    line-height: 20px; } }
 @media (max-width: 650px) {
   .carousel-item {
     position: relative; }
@@ -157,7 +197,16 @@ body .service__text {
     line-height: 54px; }
   body .service__title {
     font-size: 35px;
-    line-height: 50px; } }
+    line-height: 50px; }
+  body .service .titleSize {
+    font-size: 36px; }
+  body .service h5 {
+    font-size: 28px;
+    margin-top: 10px; }
+  body .service h6 {
+    font-size: 38px;
+    margin-top: -8px;
+    margin-bottom: 18px; } }
 @media (max-width: 450px) {
   header .titleTex {
     right: 10px; }
