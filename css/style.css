@@ -82,15 +82,14 @@ body .service__title {
   line-height: 75px;
   color: #268DCF;
   text-align: center; }
+body .service__icon {
+  text-align: center; }
 body .service__text {
   margin-top: 40px;
   text-align: left;
   font-size: 24px;
   line-height: 28px;
   color: #2C1A12; }
-body .service__icon::before {
-  content: "";
-  display: block; }
 
 @media (max-width: 1400px) {
   header .titleTex {
@@ -118,6 +117,11 @@ body .service__icon::before {
     .bodyTitle h4:last-child {
       text-align: center;
       margin-left: 10px; }
+
+  .service__icon {
+    margin-top: 20px; }
+    .service__icon svg {
+      width: 110px; }
 
   body .service__title {
     font-size: 44px;
