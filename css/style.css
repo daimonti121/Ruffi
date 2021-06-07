@@ -228,7 +228,9 @@ body .lb-details {
     font-size: 42px;
     margin-bottom: -20px; }
   body .gallery .more p {
-    font-size: 28px; } }
+    font-size: 28px; }
+  body .image-size {
+    margin-top: -30px; } }
 @media (max-width: 650px) {
   .carousel-item {
     position: relative; }
@@ -304,7 +306,9 @@ body .lb-details {
     font-size: 36px;
     margin-bottom: -30px; }
   body .gallery .more p {
-    font-size: 22px; } }
+    font-size: 22px; }
+  body .image-size {
+    margin-top: -50px; } }
 @media (max-width: 360px) {
   body .description {
     margin-top: 60px;
