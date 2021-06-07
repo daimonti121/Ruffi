@@ -162,8 +162,20 @@ body .gallery .more p {
   color: #268DCF; }
 body .gallery .more p:hover {
   text-decoration: underline; }
+body .accordion .btn-link {
+  font-size: 20px;
+  line-height: 24px;
+  color: #2C1A12; }
+body .accordion .card-body {
+  font-size: 18px;
+  line-height: 24px;
+  color: #2C1A12;
+  margin-left: 5px; }
 body .lb-details {
   display: none; }
+body .btn.focus, body .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none; }
 
 @media (max-width: 1400px) {
   header .titleTex {
