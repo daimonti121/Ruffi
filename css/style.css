@@ -47,7 +47,7 @@ body .image-block img {
   margin-top: 150px; }
 body .training {
   margin-top: 50px; }
-  body .training .align h2, body .training .align p, body .training .align h5 {
+  body .training .align h2, body .training .align p, body .training .align h5, body .training .align h3, body .training .align h4, body .training .align h6 {
     text-align: center; }
   body .training .align h2 {
     font-size: 64px;
@@ -56,13 +56,26 @@ body .training {
     margin-bottom: 20px; }
   body .training .align p {
     font-size: 24px;
-    line-height: 28px;
+    line-height: 30px;
     color: #2C1A12; }
   body .training .align h5 {
     font-size: 30px;
     line-height: 35px;
     color: #268DCF;
     margin: 5px 0px 7px; }
+  body .training .align__list h3 {
+    color: #268DCF;
+    font-size: 48px;
+    line-height: 56px; }
+  body .training .align__list h4 {
+    font-size: 36px;
+    line-height: 42px;
+    color: #2C1A12; }
+  body .training .align__list p {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #268DCF; }
   body .training .training__button {
     text-align: center; }
     body .training .training__button .buttonColor {
@@ -162,14 +175,21 @@ body .service__title-size {
     line-height: 50px; }
   body .service__text {
     margin-top: 40px;
-    text-align: left;
+    text-align: center;
     font-size: 18px; }
   body .service__align {
     text-align: center;
     margin-top: 0px; }
   body .service__title-size {
     font-size: 30px;
-    line-height: 20px; } }
+    line-height: 20px; }
+  body .training .align__list h3 {
+    font-size: 40px;
+    line-height: 56px;
+    margin-top: 34px; }
+  body .training .align__list h4 {
+    font-size: 30px;
+    line-height: 32px; } }
 @media (max-width: 650px) {
   .carousel-item {
     position: relative; }
@@ -228,6 +248,15 @@ body .service__title-size {
     font-size: 18px; }
   body .training .align h5 {
     font-size: 26px; }
+  body .training .align__list h3 {
+    font-size: 36px;
+    line-height: 40px; }
+  body .training .align__list h4 {
+    font-size: 22px;
+    line-height: 22px; }
+  body .training .align__list p {
+    font-size: 18px;
+    line-height: 22px; }
   body .service__title {
     margin-top: 60px;
     font-size: 28px;

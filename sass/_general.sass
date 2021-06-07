@@ -33,7 +33,7 @@ body
         h4 
             text-align: right
         .blueTitle 
-            color: #268DCF
+            color: $blue-color
         .titleText 
             font-family: Roboto            
             font-size: 48px
@@ -41,7 +41,7 @@ body
         .descriptionText 
             font-size: 24px
             line-height: 28px
-            color: #2C1A12 
+            color: $dark-color 
     .image-block
         img 
             width: 100%
@@ -49,29 +49,43 @@ body
     .training
         margin-top: 50px
         .align 
-            h2, p, h5 
-                text-align: center
+            h2, p, h5, h3, h4, h6
+                text-align: center                
             h2
                 font-size: 64px
                 line-height: 75px  
-                color: #268DCF
+                color: $blue-color
                 margin-bottom: 20px            
             p
                 font-size: 24px
-                line-height: 28px
-                color: #2C1A12
+                line-height: 30px
+                color: $dark-color
             h5
                 font-size: 30px
                 line-height: 35px
-                color: #268DCF
+                color: $blue-color
                 margin: 5px 0px 7px
-            
+            &__list
+                h3 
+                    color: $blue-color
+                    font-size: 48px
+                    line-height: 56px
+                h4
+                    font-size: 36px
+                    line-height: 42px
+                    color: $dark-color
+                p
+                    font-size: 30px
+                    line-height: 35px
+                    text-align: center
+
+                    color: $blue-color
                 
         .training__button
             text-align: center
             .buttonColor
                 margin-top: 44px
-                background: #268DCF
+                background: $blue-color
                 width: 237px
                 height: 47px
 
@@ -87,7 +101,7 @@ body
             margin-top: 60px
             font-size: 64px
             line-height: 75px
-            color: #268DCF
+            color: $blue-color
             text-align: center
         &__icon
             text-align: center
@@ -96,18 +110,18 @@ body
             text-align: left
             font-size: 24px
             line-height: 28px
-            color: #2C1A12
+            color: $dark-color
         h5
             font-size: 36px
             line-height: 42px
             text-align: center
-            color: #2C1A12
+            color: $dark-color
             margin-top: 30px
         h6 
             font-size: 48px
             line-height: 56px
             text-align: center
-            color: #268DCF
+            color: $blue-color
             margin-bottom: 30px
         &__align
             text-align: center
@@ -116,7 +130,7 @@ body
             text-align: center
             .buttonColor
                 margin-top: 44px
-                background: #268DCF
+                background: $blue-color
                 width: 237px
                 height: 47px
 
@@ -128,7 +142,7 @@ body
             font-size: 36px
             text-align: center
             line-height: 42px
-            color: #268DCF
+            color: $blue-color
             display: block            
             &__title-size:hover 
                 text-transform: underline 
