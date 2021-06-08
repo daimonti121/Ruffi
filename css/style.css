@@ -147,6 +147,13 @@ body .gallery h2 {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 0; }
+body .gallery h6 {
+  font-size: 40px;
+  line-height: 24px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: -24px;
+  color: #268DCF; }
 body .gallery a {
   margin: 0px 0px 10px;
   display: block; }
@@ -165,12 +172,43 @@ body .gallery .more p:hover {
 body .accordion .btn-link {
   font-size: 20px;
   line-height: 24px;
-  color: #2C1A12; }
+  color: #2C1A12;
+  margin-left: 20px; }
+body .accordion .btn-link:hover {
+  -webkit-text-decoration: underline #268DCF;
+          text-decoration: underline #268DCF; }
+body .accordion .btn-link:focus {
+  -webkit-text-decoration: underline #268DCF;
+          text-decoration: underline #268DCF; }
 body .accordion .card-body {
   font-size: 18px;
   line-height: 24px;
   color: #2C1A12;
-  margin-left: 5px; }
+  margin-left: 76px;
+  padding: 0px; }
+body .accordion p {
+  margin-bottom: 0rem; }
+body .accordion .button__icon {
+  position: relative; }
+body .accordion .button__icon::before {
+  content: url("/img/arrowDown.png");
+  position: absolute;
+  height: 40px;
+  left: -40px;
+  top: -1px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+body .accordion .button__icon:focus::before {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+body .accordion .card-header {
+  background-color: #fff;
+  border-bottom: #fff; }
+body .accordion .collapse-border {
+  border-left: 3px solid #268DCF;
+  margin-left: 20px; }
+body .accordion .card {
+  border: none; }
 body .lb-details {
   display: none; }
 body .btn.focus, body .btn:focus {
@@ -183,11 +221,19 @@ body .btn.focus, body .btn:focus {
     text-align: right; } }
 @media (max-width: 1200px) {
   header .titleTex {
-    right: 100px; } }
+    right: 100px; }
+
+  body .accordion .card-body {
+    margin-left: 60px; } }
 @media (max-width: 1000px) {
   body .service__title {
     font-size: 60px;
-    line-height: 72px; } }
+    line-height: 72px; }
+  body .gallery h6 {
+    font-size: 35px;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: -20px; } }
 @media (max-width: 992px) {
   body .gallery h2 {
     font-size: 50px;
@@ -241,8 +287,17 @@ body .btn.focus, body .btn:focus {
     margin-bottom: -20px; }
   body .gallery .more p {
     font-size: 28px; }
+  body .gallery h6 {
+    font-size: 26px;
+    line-height: 20px;
+    margin-top: 14px;
+    margin-bottom: -24px; }
   body .image-size {
-    margin-top: -30px; } }
+    margin-top: -30px; }
+  body .accordion .button__icon::before {
+    top: 8px; }
+  body .accordion .card-body {
+    margin-left: 50px; } }
 @media (max-width: 650px) {
   .carousel-item {
     position: relative; }
@@ -280,6 +335,9 @@ body .btn.focus, body .btn:focus {
     font-size: 38px;
     margin-top: -8px;
     margin-bottom: 18px; } }
+@media (max-width: 550px) {
+  body .accordion .card-body {
+    margin-left: 30px; } }
 @media (max-width: 450px) {
   header .titleTex {
     right: 10px; }
@@ -319,8 +377,15 @@ body .btn.focus, body .btn:focus {
     margin-bottom: -30px; }
   body .gallery .more p {
     font-size: 22px; }
+  body .gallery h6 {
+    font-size: 21px;
+    line-height: 20px;
+    margin-top: 24px;
+    margin-bottom: -24px; }
   body .image-size {
-    margin-top: -50px; } }
+    margin-top: -50px; }
+  body .accordion .card-body {
+    margin-left: 16px; } }
 @media (max-width: 360px) {
   body .description {
     margin-top: 60px;
@@ -335,6 +400,10 @@ body .btn.focus, body .btn:focus {
   body .service__title {
     margin-top: 60px;
     font-size: 26px;
-    line-height: 34px; } }
+    line-height: 34px; }
+  body .accordion .btn-link {
+    font-size: 18px; }
+  body .accordion .button__icon::before {
+    top: 10px; } }
 
 /*# sourceMappingURL=style.css.map */

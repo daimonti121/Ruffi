@@ -157,6 +157,13 @@ body
             text-align: center
             margin-top: 10px
             margin-bottom: 0
+        h6
+            font-size: 40px
+            line-height: 24px
+            margin-top: 20px
+            text-align: center
+            margin-bottom: -24px
+            color: $blue-color   
         a
             margin: 0px 0px 10px
             display: block            
@@ -177,12 +184,42 @@ body
             font-size: 20px
             line-height: 24px
             color: $dark-color
+            margin-left: 20px   
+        .btn-link:hover
+            text-decoration: underline $blue-color
+        .btn-link:focus
+            text-decoration: underline $blue-color
         .card-body 
             font-size: 18px
             line-height: 24px 
             color: $dark-color
-            margin-left: 5px
-        .card-body 
+            margin-left: 76px
+            padding: 0px
+        p
+            margin-bottom: 0rem      
+        
+        .button__icon
+            position: relative   
+        .button__icon::before
+            content: url('/img/arrowDown.png')
+            position: absolute
+            height: 40px
+            left: -40px
+            top: -1px
+            transition: .3s
+        .button__icon:focus::before
+            transform: rotate(180deg)
+        .card-header
+            background-color: #fff
+            border-bottom: #fff
+        .collapse-border
+            border-left: 3px solid $blue-color
+            margin-left: 20px
+        .card 
+            border: none
+
+            
+        
     .lb-details
         display: none
     .btn.focus, .btn:focus

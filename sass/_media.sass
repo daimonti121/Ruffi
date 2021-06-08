@@ -5,12 +5,22 @@
 @media ( max-width: 1200px )
     header .titleTex
         right: 100px
+    body
+        .accordion 
+            .card-body
+                margin-left: 60px
 @media ( max-width: 1000px )
     body
         .service
             &__title 
                 font-size: 60px
                 line-height: 72px
+        .gallery
+            h6
+                font-size: 35px
+                line-height: 20px
+                margin-top: 8px
+                margin-bottom: -20px
 @media ( max-width: 992px )
     body
         .gallery
@@ -69,8 +79,18 @@
             .more
                 p    
                     font-size: 28px
+            h6
+                font-size: 26px
+                line-height: 20px
+                margin-top: 14px
+                margin-bottom: -24px
         .image-size
             margin-top: -30px
+        .accordion 
+            .button__icon::before
+                top: 8px
+            .card-body
+                margin-left: 50px
     
 @media ( max-width: 650px )
     .carousel-item
@@ -110,8 +130,11 @@
                 font-size: 38px
                 margin-top: -8px
                 margin-bottom: 18px
-
-              
+@media ( max-width: 550px )
+    body 
+        .accordion             
+            .card-body
+                margin-left: 30px              
 @media ( max-width: 450px )
     header .titleTex
         right: 10px
@@ -160,8 +183,17 @@
             .more
                 p    
                     font-size: 22px
+            h6
+                font-size: 21px
+                line-height: 20px
+                margin-top: 24px
+                margin-bottom: -24px
         .image-size
             margin-top: -50px
+        .accordion             
+            .card-body
+                margin-left: 16px    
+
                         
 @media ( max-width: 360px )
     body 
@@ -181,7 +213,12 @@
             &__title 
                 margin-top: 60px
                 font-size: 26px
-                line-height: 34px  
+                line-height: 34px
+        .accordion 
+            .btn-link
+                font-size: 18px
+            .button__icon::before
+                top: 10px  
   
 
         
