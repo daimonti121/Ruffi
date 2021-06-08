@@ -27,6 +27,9 @@ header .titleTex {
     color: #FFFFFF;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     margin-top: -50px; }
+header .sticky-top {
+  position: fixed;
+  width: 100%; }
 
 body .description {
   margin-top: 150px; }
@@ -209,6 +212,59 @@ body .accordion .collapse-border {
   margin-left: 20px; }
 body .accordion .card {
   border: none; }
+body .info__title {
+  font-size: 56px;
+  line-height: 75px;
+  text-align: center;
+  color: #268DCF; }
+body .info__icon {
+  text-align: center; }
+body .info p, body .info a {
+  font-size: 30px;
+  line-height: 36px;
+  color: #2C1A12;
+  margin-top: 20px; }
+body .info a {
+  display: block;
+  margin-bottom: 20px; }
+body .google {
+  text-align: center;
+  margin-top: 100px; }
+  body .google__map {
+    width: 1125px;
+    height: 287px; }
+body .feedback h2 {
+  font-size: 48px;
+  line-height: 56px;
+  color: #268DCF;
+  text-align: center;
+  margin-top: 80px; }
+body .feedback__form {
+  margin: 40px auto 0px; }
+  body .feedback__form .form-control {
+    border: 2px solid #268DCF; }
+  body .feedback__form label {
+    margin-bottom: 6px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2C1A12; }
+  body .feedback__form textarea {
+    height: 200px; }
+  body .feedback__form .form-check {
+    margin-top: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    body .feedback__form .form-check label {
+      font-size: 24px;
+      line-height: 28px;
+      color: #2C1A12;
+      margin-left: 15px;
+      margin-top: 4px; }
+    body .feedback__form .form-check .check {
+      width: 25px;
+      height: 25px;
+      border: 2px solid #268DCF; }
 body .lb-details {
   display: none; }
 body .btn.focus, body .btn:focus {
@@ -224,7 +280,11 @@ body .btn.focus, body .btn:focus {
     right: 100px; }
 
   body .accordion .card-body {
-    margin-left: 60px; } }
+    margin-left: 60px; }
+  body .google {
+    margin-top: 100px; }
+    body .google__map {
+      width: 80%; } }
 @media (max-width: 1000px) {
   body .service__title {
     font-size: 60px;
@@ -240,7 +300,15 @@ body .btn.focus, body .btn:focus {
     margin-top: 0; }
   body .gallery a .gallery__image {
     width: 100%;
-    height: 100%; } }
+    height: 100%; }
+  body .info__title {
+    font-size: 50px;
+    line-height: 56px; }
+  body .info p, body .info a {
+    font-size: 26px;
+    line-height: 32px; }
+  body .google {
+    margin-top: 80px; } }
 @media (max-width: 850px) {
   header .titleTex {
     right: 60px; }
@@ -297,7 +365,16 @@ body .btn.focus, body .btn:focus {
   body .accordion .button__icon::before {
     top: 8px; }
   body .accordion .card-body {
-    margin-left: 50px; } }
+    margin-left: 50px; }
+  body .info__title {
+    font-size: 42px;
+    line-height: 46px; }
+  body .info p, body .info a {
+    font-size: 19px;
+    line-height: 28px; }
+  body .feedback h2 {
+    font-size: 44px;
+    line-height: 46px; } }
 @media (max-width: 650px) {
   .carousel-item {
     position: relative; }
@@ -337,7 +414,29 @@ body .btn.focus, body .btn:focus {
     margin-bottom: 18px; } }
 @media (max-width: 550px) {
   body .accordion .card-body {
-    margin-left: 30px; } }
+    margin-left: 30px; }
+  body .info__title {
+    font-size: 32px;
+    line-height: 38px; }
+  body .info__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  body .info img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px; }
+  body .google {
+    margin-top: 40px; }
+    body .google__map {
+      width: 100%; } }
 @media (max-width: 450px) {
   header .titleTex {
     right: 10px; }
@@ -385,7 +484,11 @@ body .btn.focus, body .btn:focus {
   body .image-size {
     margin-top: -50px; }
   body .accordion .card-body {
-    margin-left: 16px; } }
+    margin-left: 16px; }
+  body .feedback h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 60px; } }
 @media (max-width: 360px) {
   body .description {
     margin-top: 60px;
@@ -404,6 +507,9 @@ body .btn.focus, body .btn:focus {
   body .accordion .btn-link {
     font-size: 18px; }
   body .accordion .button__icon::before {
-    top: 10px; } }
+    top: 10px; }
+  body .info__title {
+    font-size: 32px;
+    line-height: 34px; } }
 
 /*# sourceMappingURL=style.css.map */
