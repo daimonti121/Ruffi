@@ -194,7 +194,7 @@ body .accordion p {
 body .accordion .button__icon {
   position: relative; }
 body .accordion .button__icon::before {
-  content: url("/img/arrowDown.png");
+  content: url("../img/arrowDown.png");
   position: absolute;
   height: 40px;
   left: -40px;
