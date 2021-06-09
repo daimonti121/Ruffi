@@ -5,16 +5,29 @@
 @media ( max-width: 1200px )
     header .titleTex
         right: 100px
-    body
+    body        
         .accordion 
             .card-body
                 margin-left: 60px
+        .gallery             
+            a
+                .gallery__image 
+                    width: 220px
+                    height: 220px
         .google
             margin-top: 100px
             &__map
                 width: 80%
             
 @media ( max-width: 1000px )
+    .bodyTitle
+        display: flex
+        margin: 0 0 0 80px
+        margin-bottom: 40px
+        
+        h4:last-child 
+            text-align: center
+            margin-left: 10px   
     body
         .service
             &__title 
@@ -55,6 +68,7 @@
 @media ( max-width: 768px )
     .bodyTitle
         display: flex
+        margin-left: 0
         margin-bottom: 40px
         h4:last-child 
             text-align: center
@@ -160,10 +174,16 @@
                 margin-bottom: 18px
 @media ( max-width: 550px )
     body 
+        .training
+            margin-top: 50px
+            .align-position
+                top: -20px
         .accordion             
             .card-body
                 margin-left: 30px   
         .info
+            .info__pisition
+                margin-top: 0
             &__title
                 font-size: 32px
                 line-height: 38px  
@@ -172,6 +192,7 @@
                 text-align: center
                 align-items: center
                 justify-content: flex-start
+                margin: 0px 20px
             img
                 width: 40px
                 height: 40px
@@ -179,7 +200,20 @@
         .google
             margin-top: 40px
             &__map
-                width: 100%      
+                width: 100%
+        .accordion
+            .accordion__title-positio
+                margin-top: 0
+        .feedback        
+            .feedback__position
+                margin-top: 0
+            .form-service__button
+                    text-align: center
+            .feedback__form 
+                .form-check 
+                    label
+                        font-size: 16px
+                      
 @media ( max-width: 450px )
     header .titleTex
         right: 10px
