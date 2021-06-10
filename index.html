@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="css/style.css">    
 </head>
 <body>
-    <header>        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <header> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">            
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,17 +24,18 @@
                 </button>
                 <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link mr-4" href="#">ДОМ</a>
-                        <a class="nav-link mr-4" href="#">ОБУЧЕНИЕ</a>
-                        <a class="nav-link mr-4" href="#">ПОВЕДЕНЧЕСКАЯ ПОМОЩЬ</a>  
-                        <a class="nav-link mr-4" href="#">ОТЕЛЬ</a>
-                        <a class="nav-link mr-4" href="#">ПРАЙС-ЛИСТ</a> 
-                        <a class="nav-link mr-4" href="#">ГАЛЕРЕЯ</a>                
+                        <a class="nav-link mr-4" href="#home">ДОМ</a>
+                        <a class="nav-link mr-4" href="#study">ОБУЧЕНИЕ</a>
+                        <a class="nav-link mr-4" href="#help">ПОВЕДЕНЧЕСКАЯ ПОМОЩЬ</a>  
+                        <a class="nav-link mr-4" href="#hotel">ОТЕЛЬ</a>
+                        <a class="nav-link mr-4" href="#praise">ПРАЙС-ЛИСТ</a> 
+                        <a class="nav-link mr-4" href="#gallery">ГАЛЕРЕЯ</a>                
                     </div>
                 </div>
             </div>
         </nav>
         <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <a id="home"></a>
             <div class="carousel-inner">
               <div class="carousel-item active" data-interval="3000">
                 <img src="img/sliderOne.png" class="d-block w-100" alt="...">
@@ -87,6 +88,7 @@
         <div class="image-block">
             <img src="img/bodyDogs.png" alt="dogs">
         </div>
+        <a id="study"></a>
         <div class="container training">
             <div class="row">
                 <div class="col-12 align">
@@ -110,13 +112,14 @@
             </div>
             <div class="row">
                 <div class="col-12 training__button">
-                    <button type="button" class="btn btn-primary buttonColor">Записаться</button>
+                    <a href="#praise"><button type="button" class="btn btn-primary buttonColor">Записаться</button></a>
                 </div>
             </div>
         </div>
         <div class="image-block-two">
             <img src="img/bodyDog.png" alt="dogs">
         </div>
+        <a id="help"></a>
         <div class="container training">
             <div class="row">
                 <div class="col-12 align align-position">
@@ -132,13 +135,16 @@
             </div>
             <div class="row">
                 <div class="col-12 training__button">
-                    <button type="button" class="btn btn-primary buttonColor button-pisition">Записатся</button>
+                    <a href="#praise">
+                        <button type="button" class="btn btn-primary buttonColor button-pisition">Записаться</button>
+                    </a>
                 </div>
             </div>
         </div>
         <div class="image-block-two img-positon">
             <img src="img/bodyNiceDog.png" alt="dogs">
         </div>
+        <a id="hotel"></a>
         <div class="container service">
             <div class="row">
                 <div class="col-12">
@@ -233,7 +239,9 @@
             </div>
             <div class="row">
                 <div class="col-12 service__button">
-                    <button type="button" class="btn btn-primary buttonColor service-button-pisition">Записатся</button>
+                    <a href="#praise">
+                        <button type="button" class="btn btn-primary buttonColor service-button-pisition">Записаться</button>
+                    </a>
                 </div>
 
             </div> 
@@ -253,6 +261,7 @@
         <div class="image-block-two">
             <img src="img/bodyBlackDog.png" alt="dogs">
         </div>
+        <a id="praise"></a>
         <div class="container training">
             <div class="row">
                 <div class="col-12 align">
@@ -304,6 +313,7 @@
         <div class="image-block-two">
             <img src="img/bodyPhotoDog.png" alt="dogs">
         </div>
+        <a id="gallery"></a>
         <div class="container gallery">
             <div class="row gallery-row-top">
                 <div class="col-12 mt-sm-5 mt-4">
@@ -362,7 +372,7 @@
                             </h2>
                           </div>
                       
-                          <div id="collapseOne" class="collapse show collapse-border" aria-labelledby="headingOne" data-parent="#accordionExample">
+                          <div id="collapseOne" class="collapse collapse-border" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body">
                                 - еда, которую он получает дома;<br>
                                 - помните, что у собаки есть микрочип или татуировка и что рядом с ее ошейником есть номер телефона. Если его нет, то прикрепим бирку к ошейнику собаки (на всякий случай);<br>
@@ -488,6 +498,19 @@
                 </div>
             </div>
         </div>
+        <script>
+            const anchors = document.querySelectorAll('a[href^="#"]')           
+            for(let anchor of anchors) {
+            anchor.addEventListener("click", function(e) {
+                e.preventDefault()                
+                const goto = anchor.hasAttribute('href') ? anchor.getAttribute('href') : 'body'              
+                document.querySelector(goto).scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+                })
+            })
+            }
+        </script>
         
                 
             
