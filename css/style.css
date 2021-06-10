@@ -350,7 +350,7 @@ body .feedback__form {
     display: -ms-flexbox;
     display: flex; }
     body .feedback__form .form-check label {
-      font-size: 18px;
+      font-size: 17px;
       line-height: 28px;
       color: #2C1A12;
       margin-left: 15px;
@@ -565,7 +565,7 @@ body .btn.focus, body .btn:focus {
   body .feedback .form-service__button {
     text-align: center; }
   body .feedback .feedback__form .form-check label {
-    font-size: 16px; } }
+    font-size: 11px; } }
 @media (max-width: 450px) {
   header .titleTex {
     right: 10px; }
@@ -580,6 +580,8 @@ body .btn.focus, body .btn:focus {
       font-size: 40px; }
   body .image-block img, body .image-bloc-two img {
     margin-top: 50px; }
+  body .training .training__button .buttonColor {
+    margin-top: 0; }
   body .training .align h2 {
     font-size: 40px;
     margin-bottom: 10px; }
@@ -587,6 +589,11 @@ body .btn.focus, body .btn:focus {
     font-size: 18px; }
   body .training .align h5 {
     font-size: 26px; }
+  body .training .align .training__text-h5 {
+    font-size: 32px;
+    line-height: 40px; }
+  body .training .align .training__text-p {
+    font-size: 27px; }
   body .training .align__list h3 {
     font-size: 36px;
     line-height: 40px; }
@@ -595,11 +602,17 @@ body .btn.focus, body .btn:focus {
     line-height: 22px; }
   body .training .align__list p {
     font-size: 18px;
-    line-height: 22px; }
+    line-height: 26px; }
   body .service__title {
     margin-top: 60px;
     font-size: 28px;
     line-height: 34px; }
+  body .service .service__button .buttonColor {
+    margin-top: 0; }
+  body .service .service__icon svg {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -10px; }
   body .gallery h2 {
     font-size: 36px;
     margin-bottom: -30px; }
